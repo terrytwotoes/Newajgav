@@ -1,0 +1,193 @@
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 30% 45% 22%;
+  grid-template-rows: 100%;
+  /* margin: 1.5rem; */
+  /* border: 2px solid red; */
+  padding: 3rem;
+  grid-gap: 2rem;
+  /* border: 2px solid green; */
+}
+
+.grid-collage-wrapper {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 55% 45%;
+  grid-gap: 0.5rem;
+}
+
+.grid-collage-item-1 {
+  width: 100%;
+  display: flex;
+  /* border: 2px solid blue; */
+  grid-column: 1/3;
+  grid-row: 1/2;
+  flex-wrap: wrap;
+}
+
+.grid-collage-item-2 {
+  display: flex;
+  /* border: 2px solid brown; */
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.grid-collage-item-3 {
+  display: flex;
+  /* border: 2px solid gray; */
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid-about-us-wrapper {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 85%;
+}
+
+.grid-about-us-heading {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  /* border: 2px solid yellow; */
+  font-size: 1rem;
+  color: purple;
+}
+
+.grid-about-us-content {
+  display: grid;
+  padding: 1rem;
+  /* border: 2px solid yellow; */
+  grid-template-columns: 100%;
+  grid-row: 10% 90%;
+}
+
+.grid-about-us-content-subheading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: purple;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-row: 1/2;
+}
+
+.grid-about-us-content-para {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.grid-testimonial-wrapper {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  color: white;
+  background-color: purple;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  height: auto;
+  transition: 1s;
+}
+
+.grid-collage-item-wrapper:hover {
+  display: flex;
+  transform: scale(0.9);
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  -o-transition: transform 1s;
+  transition: transform 1s;
+}
+
+@media (max-width: 1000px) {
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 50% 30%;
+    padding: 0.5rem;
+    /* grid-gap: 1rem; */
+    margin: 0.5rem;
+    /* border: 2px solid blue; */
+    height: auto;
+  }
+
+  .grid-collage-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 40%; */
+    padding: 0.25rem;
+    /* border: 2px solid purple; */
+    justify-content: space-between;
+    grid-row: 1/2;
+  }
+
+  .grid-collage-item-wrapper {
+    display: flex;
+    /* border: 2px solid green; */
+    height: 30%;
+    width: 100%;
+    position: relative;
+  }
+
+  .grid-collage-item-1 {
+    /* border: 2px solid blue; */
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .grid-collage-item-2 {
+    /* border: 2px solid brown; */
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .grid-collage-item-3 {
+    /* border: 2px solid gray; */
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  /* about us styles */
+  .grid-about-us-wrapper {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    height: auto;
+    grid-row: 2/3;
+  }
+
+  .grid-about-us-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border-radius: 0.5rem;
+    color: white;
+    grid-row: 1/2;
+  }
+
+  .grid-about-us-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    grid-row: 2/3;
+    /* border: 2px solid green; */
+    flex-wrap: wrap;
+  }
+  .grid-about-us-content-subheading {
+    color: purple;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 4rem;
+  }
+}

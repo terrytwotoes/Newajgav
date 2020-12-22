@@ -1,0 +1,5 @@
+.rootWapper {
+  display: flex;
+  min-height: 20rem;
+  max-height: 50rem;
+}
