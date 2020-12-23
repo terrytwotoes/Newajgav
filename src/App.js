@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <AboutUsDivWrapper />
       <SubNavBar />
-      <ContactUsDivWrapper />
+      {/* <ContactUsDivWrapper /> */}
       <FooterDivWrapper />
     </>
   );

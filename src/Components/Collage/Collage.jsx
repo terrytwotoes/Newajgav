@@ -45,12 +45,12 @@ export default function Collagediv(props) {
 
       <div className="grid-about-us-wrapper">
         <div className="grid-about-us-heading">
-          <h1> Who are we?</h1>
+          <h1> Mission and Vision</h1>
         </div>
         <div className="grid-about-us-content">
-          <h3 className="grid-about-us-content-subheading">
+          <h4 className="grid-about-us-content-subheading">
             Warm Greetings from Ajgav Projects Management & Services Pvt. Ltd.
-          </h3>
+          </h4>
           <h5 className="grid-about-us-content-para">
           We are here to facilitate cost effective, timely and beneficial solutions through our services catering to
 project management, HR solutions and tourism.

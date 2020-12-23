@@ -15,10 +15,11 @@ export default function Hrm() {
         it one time service or ongoing needs, our expert team is ready to handle
         each unique project in time bound and cost effective ways.
       </p>
-    </div>
-    <div className="servicesWrapper">
+   
+    {/* <div className="servicesWrapper"> */}
     <div className="consultingWrapper">
-      <h1> Consult us for your requirements regarding:</h1>
+      <h1> Consulting Services</h1>
+      <h3>Consult us for your requirements regarding:</h3>
       <ui >
         <li>Recruitment</li>
         <li>Job Analysis</li>
@@ -33,6 +34,8 @@ export default function Hrm() {
     </div>
     <div className="hrdWrapper">
       <h1>HRD services </h1>
+      <h3>Our Training sessions and seminars are customized depending upon your business needs that help you
+grow and sustain.</h3>
       <ui>
         <li>Leadership</li>
         <li>Motivation</li>
@@ -45,7 +48,8 @@ export default function Hrm() {
         <li>Project Management</li>
         <li>Team Building Workshops</li>
       </ui>
-    </div>
+    {/* </div> */}
+  </div>
   </div>
   </>
   );
