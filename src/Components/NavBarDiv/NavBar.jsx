@@ -5,7 +5,13 @@ import { Modal, Button } from "react-bootstrap";
 import QueryForm from "../Forms/QueriesForm";
 import VendorForm from "../Forms/VendorForm";
 import ClientForm from "../Forms/ClientForm";
-import GrievancesForm from "../Forms/GrievancesForm"
+import GrievancesForm from "../Forms/GrievancesForm";
+import {
+  Menu,
+  MenuItem,
+  MenuButton
+} from '@szhsin/react-menu';
+import '@szhsin/react-menu/dist/index.css';
 
 class Navbar extends Component {
   state = {
@@ -35,7 +41,16 @@ class Navbar extends Component {
       <>
         <div className="navbar-wrapper">
           <img className="ajgav-logo" src={ajgavlogo} alt="" />
-          <div className="dropdown">
+          <Menu styles = {{ color:"purple", fontWeight:"bold"}}menuButton={<MenuButton styles = {{ color:"purple", fontWeight:"bold", width:"8.5rem"}} >Contact Us</MenuButton>}>
+            <MenuItem onClick={() => this.handleShow("Vendors")}>Vendors</MenuItem>
+            <MenuItem onClick={() => this.handleShow("Clients")}>Clients</MenuItem>
+
+            <MenuItem onClick={() => this.handleShow("Queries")}>Queries</MenuItem>
+
+            <MenuItem onClick={() => this.handleShow("Grievances")}>Grievances</MenuItem>
+            
+        </Menu>
+          {/* <div className="dropdown">
             <a href="#" className="droplink">Contact Us</a>
             <div className="dropdown-content">
               <a
@@ -55,7 +70,7 @@ class Navbar extends Component {
                 Grievances
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <Modal className="form-modal"  show={this.state.show}>
           <Modal.Header>

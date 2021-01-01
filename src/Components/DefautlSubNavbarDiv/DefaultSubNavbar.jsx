@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "./Collage.css";
+import "./DefaultSubNavbar.css";
 import collage1 from "../../Assets/collage_1.jpg";
 import collage2 from "../../Assets/collage_2.jpg";
 import collage3 from "../../Assets/collage_3.jpg";
@@ -45,18 +45,20 @@ export default function Collagediv(props) {
 
       <div className="grid-about-us-wrapper">
         <div className="grid-about-us-heading">
-          <h1> Welcome!</h1>
+          <h1> Mission and Vision</h1>
         </div>
         <div className="grid-about-us-content">
-        <h4 className="grid-about-us-content-subheading">
+          {/* <h4 className="grid-about-us-content-subheading">
             Warm Greetings from Ajgav Projects Management & Services Pvt. Ltd.
-          </h4>
+          </h4> */}
           <h5 className="grid-about-us-content-para">
-          We are here to provide efficient planning and Management for setting up small scale power/industrial projects, 
-          Human Resources management and Customised Tours.  We offer complete Project management services including vendor 
-          management, planning, supply & quality management, Resources allocation, HR planning, and Construction Management.
-          Our specialized team proffer customized solutions for vendor development, recruitment and training services, and travel planning as per requirements through cost effective execution ensuring time bound performance. We provide expert consultation regarding project viability, scope, opportunity and assessment of the latitudes to slash the risks involved and aerate the possibilities.
-We welcome you  to explore our work domains.
+          We are here to facilitate cost effective, timely and beneficial solutions through our services catering to
+project management, HR solutions and tourism.
+We aim to promote and work on the solutions for clean energy and make it more accessible and
+beneficial for all. We aspire to be a trusted ally of our customers for their HR needs. And we wish to
+provide tourism options that are customized to the requirement of our clients and also sustainable,
+promising comfortable and memorable experiences to the customers while encouraging development
+of local resources, culture, and heritage.
           </h5>
         </div>
       </div>
