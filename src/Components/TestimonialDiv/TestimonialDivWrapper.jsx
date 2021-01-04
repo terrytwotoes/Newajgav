@@ -30,47 +30,28 @@ export default function TestimonialDivWrapper() {
         }}
       >
         <div >
-          <h1>Testimonial 1</h1>
+          <h1>Mr. Bhuvanesh Pandey, Indore</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            iste, saepe cumque eum a mollitia adipisci quo ducimus, error
-            eveniet veniam unde ut. Quibusdam voluptas assumenda adipisci,
-            similique aperiam laboriosam! Placeat provident distinctio ea facere
-            quia similique eligendi, fugiat magni earum asperiores, natus eaque
-            repudiandae corporis blanditiis nesciunt commodi? Deserunt.
+          Thanks to the tourism department of Ajgav, who made our north east tour memorable and unique in many ways. Not only the comfort and ease of travel was taken care of but also the choice of locations was amazing. They listen to our requirements carefully and suggest the best. Thank you guys and keep up the great work.
           </p>
         </div>
         <div>
-          <h1>Testimonial 2</h1>
+          <h1>J Singh and Family, Jamshedpur</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            iste, saepe cumque eum a mollitia adipisci quo ducimus, error
-            eveniet veniam unde ut. Quibusdam voluptas assumenda adipisci,
-            similique aperiam laboriosam! Placeat provident distinctio ea facere
-            quia similique eligendi, fugiat magni earum asperiores, natus eaque
-            repudiandae corporis blanditiis nesciunt commodi? Deserunt.
+          Loved the superb darjeeling trip managed by Ajgav... The packages are just not the readymade kind but individually planned for travellers taking care of their concerns, comfort and most importantly interest. Thank you folks.  
           </p>
         </div>
         <div>
-          <h1>Testimonial 3</h1>
+          <h1>Sunil sharma, MD, SS contracts</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            iste, saepe cumque eum a mollitia adipisci quo ducimus, error
-            eveniet veniam unde ut. Quibusdam voluptas assumenda adipisci,
-            similique aperiam laboriosam! Placeat provident distinctio ea facere
-            quia similique eligendi, fugiat magni earum asperiores, natus eaque
-            repudiandae corporis blanditiis nesciunt commodi? Deserunt.
+          The best attribute of Team Ajgav is their promptness in attending to customer's concerns and their ability to come up with required solutions in any given situation. We wish them very best for their upcoming endeavours and look  forward to collaborate with team Ajgav in the future projects.
+
           </p>
         </div>
         <div>
-          <h1>Testimonial 4</h1>
+          <h1>JP Kaushik, Ashirwad Carbonics India Pvt Ltd</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            iste, saepe cumque eum a mollitia adipisci quo ducimus, error
-            eveniet veniam unde ut. Quibusdam voluptas assumenda adipisci,
-            similique aperiam laboriosam! Placeat provident distinctio ea facere
-            quia similique eligendi, fugiat magni earum asperiores, natus eaque
-            repudiandae corporis blanditiis nesciunt commodi? Deserunt.
+          Despite being a new startup, Ajgav has shown quality professionalism in projects. They have taken up the challenges forefront and effectively proved their mettle. Glad to have them as our promoters of our products in Vietnam & Malaysia. 
           </p>
         </div>
       </Slider>
