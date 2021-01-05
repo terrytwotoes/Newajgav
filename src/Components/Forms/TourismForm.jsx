@@ -8,10 +8,10 @@ export default function TourismForm() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_65sm3oq",
+        "service_h7g4ggb",
+        "template_ke8di0b",
         e.target,
-        "user_Y2TfupNZ6YoTW6mKwqszu"
+        "user_VDcy7NxSn0n2vI1aj2xrT"
       )
       .then(
         (result) => {
@@ -32,12 +32,12 @@ export default function TourismForm() {
             <label htmlFor="destination">Destination</label>
           </div>
           <div className="col-75">
-            <select name="destination" id="destination">
+            <select name="destination" id="destination" name="destination">
               <option value="NE">NE</option>
               <option value="royal-rajputana">Royal Rajputana</option>
               <option value="hindi-heartland">Hindi Heartland</option>
-              <option value="hindi-heartland">Bhutan</option>
-
+              <option value="bhutan">Bhutan</option>
+              <option value="goa">Goa</option>
             </select>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function TourismForm() {
             <input
               type="number"
               placeholder="Approx"
-              name="Budget"
+              name="budget"
               id="Budget"
             />
           </div>

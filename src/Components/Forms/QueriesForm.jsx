@@ -7,10 +7,10 @@ export default function QueryForm() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_gvtdpgk",
+        "service_so54zm8",
+        "template_wrznuea",
         e.target,
-        "user_Y2TfupNZ6YoTW6mKwqszu"
+        "user_eY0qlIyq52lBAIAYc7tHK"
       )
       .then(
         (result) => {
@@ -42,7 +42,7 @@ export default function QueryForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Comapany Name"
+              placeholder="Company Name"
               name="company-name"
               required
             />
@@ -75,6 +75,7 @@ export default function QueryForm() {
               className="contact-no"
               placeholder="Contact No"
               title="Contact number must be 10 digits long"
+              name="contact-no"
               required
             />
           </div>

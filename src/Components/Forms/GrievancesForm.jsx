@@ -7,10 +7,10 @@ export default function GrievancesForm() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_z174y4n",
+        "service_so54zm8",
+        "template_lk4i7wt",
         e.target,
-        "user_Y2TfupNZ6YoTW6mKwqszu"
+        "user_eY0qlIyq52lBAIAYc7tHK"
       )
       .then(
         (result) => {

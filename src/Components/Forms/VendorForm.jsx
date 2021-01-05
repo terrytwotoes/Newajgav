@@ -7,10 +7,10 @@ export default function ClientForm() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_65sm3oq",
+        "service_d0h8wkf",
+        "template_d2padeg",
         e.target,
-        "user_Y2TfupNZ6YoTW6mKwqszu"
+        "user_plZuU9KoCrMRKU6po6ixR"
       )
       .then(
         (result) => {
