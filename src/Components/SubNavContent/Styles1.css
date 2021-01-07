@@ -65,4 +65,18 @@ p {
     font-size: 1rem;
     width: 100%;
   }
+
+  .consultingWrapper {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .hrdWrapper {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+  }
 }

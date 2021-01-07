@@ -53,10 +53,10 @@ export default function Collagediv(props) {
           </h4>
           <h5 className="grid-about-us-content-para">
           We are here to provide efficient planning and Management for setting up small scale power/industrial projects, 
-          Human Resources management and Customised Tours.  We offer complete Project management services including vendor 
+          Human Resources Management and Customised Tours.  We offer complete Project management services including vendor 
           management, planning, supply & quality management, Resources allocation, HR planning, and Construction Management.
-          Our specialized team proffer customized solutions for vendor development, recruitment and training services, and travel planning as per requirements through cost effective execution ensuring time bound performance. We provide expert consultation regarding project viability, scope, opportunity and assessment of the latitudes to slash the risks involved and aerate the possibilities.
-We welcome you  to explore our work domains.
+          Our specialized team proffers customized solutions for vendor development, recruitment and training services, and travel planning as per requirements through cost-effective execution ensuring time-bound performance. We provide expert consultation regarding project viability, scope, opportunity, and assessment of the latitudes to slash the risks involved and aerate the possibilities.
+We welcome you to explore our work domains.
           </h5>
         </div>
       </div>
