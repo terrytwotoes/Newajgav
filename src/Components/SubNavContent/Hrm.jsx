@@ -19,13 +19,10 @@ each unique project in time-bound and cost-effective ways..
       <h3>Consult us for your requirements regarding:</h3>
       <ui >
         <li>Recruitment</li>
-        <li>Job Analysis</li>
-        <li>Defining KRA and KPI</li>
-        <li>Performance Management</li>
-        <li>Salary Packages Structuring</li>
-        <li>Analysis of market pay scales</li>
-        <li>Development</li>
-        <li>Implementation of Work Policy Terms</li>
+        <li>Job Analysis, Description and defining KRA and KPI.</li>
+        <li>Performance Management.</li>
+        <li>Salary Packages Structuring & Analysis of Market Pay scales.</li>
+        <li>Development & Implementation of Work Policy & Terms.</li>
       </ui>
     </div>
     <div className="hrdWrapper">
@@ -33,8 +30,7 @@ each unique project in time-bound and cost-effective ways..
       <h3>Our Training sessions and seminars are customized depending upon your business needs that help you
 grow and sustain.</h3>
       <ui>
-        <li>Leadership</li>
-        <li>Motivation</li>
+        <li>Leadership & Motivation</li>
         <li>Corporate communication and reporting</li>
         <li>Employee engagement and retention</li>
         <li>Personality development</li>

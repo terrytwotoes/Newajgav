@@ -35,9 +35,11 @@ class SubNavBar extends Component {
             <MenuItem onClick={() => this.activeOptionHandler("hrm")}>HRM</MenuItem>
             <MenuItem onClick={() => this.activeOptionHandler("tourism")}>Tourism</MenuItem>
         </Menu>
-        <Menu styles = {{ color:"purple", fontWeight:"bold"}} menuButton={<MenuButton styles = {{ color:"purple", fontWeight:"bold", width:"8.5rem"}}>Careers</MenuButton>}>
+        {/* <Menu  styles = {{ color:"purple", fontWeight:"bold"}} menuButton={<MenuButton styles = {{ color:"purple", fontWeight:"bold", width:"8.5rem"}} onClick={() => this.activeOptionHandler("careers")}>Careers</MenuButton>}>
           <MenuItem onClick={() => this.activeOptionHandler("careers")} class="subnavbtn">Requirements</MenuItem>
-        </Menu>
+        </Menu> */}
+
+        <MenuButton styles = {{ color:"purple", fontWeight:"bold", width:"8.5rem"}} onClick={() => this.activeOptionHandler("careers")}>Careers</MenuButton>
       </div>
 
         {this.state.isActive === "default" && <Collagediv />}
