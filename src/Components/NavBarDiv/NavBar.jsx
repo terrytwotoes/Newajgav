@@ -17,6 +17,7 @@ class Navbar extends Component {
   state = {
     show: false,
     heading: "Default",
+    isActive: "default",
     formType: {
       Vendors: <VendorForm />,
       Clients: <ClientForm />,
@@ -34,6 +35,9 @@ class Navbar extends Component {
    handleClose = () => {
      this.setState({show: false})
    }
+   refreshForHome = () => {
+     window.location.reload();
+   }
 
 
   render() {
@@ -41,36 +45,18 @@ class Navbar extends Component {
       <>
         <div className="navbar-wrapper">
           <img className="ajgav-logo" src={ajgavlogo} alt="" />
+          <div>
+        <MenuButton onClick={() => this.refreshForHome()} styles = {{ color:"purple", fontWeight:"bold", width:"8.5rem"}} >Home</MenuButton>
           <Menu styles = {{ color:"purple", fontWeight:"bold"}}menuButton={<MenuButton styles = {{ color:"purple", fontWeight:"bold", width:"8.5rem"}} >Contact Us</MenuButton>}>
             <MenuItem onClick={() => this.handleShow("Vendors")}>Vendors</MenuItem>
             <MenuItem onClick={() => this.handleShow("Clients")}>Clients</MenuItem>
-
             <MenuItem onClick={() => this.handleShow("Queries")}>Queries</MenuItem>
-
             <MenuItem onClick={() => this.handleShow("Grievances")}>Grievances</MenuItem>
-            
         </Menu>
-          {/* <div className="dropdown">
-            <a href="#" className="droplink">Contact Us</a>
-            <div className="dropdown-content">
-              <a
-                href="#vendorForm"
-                data-toggle="modal"
-                onClick={() => this.handleShow("Vendors")}
-              >
-                Vendors
-              </a>
-              <a href="#clientForm" onClick={() => this.handleShow("Clients")}>
-                Clients
-              </a>
-              <a href="#queriesForm" onClick={() => this.handleShow("Queries")}>
-                Queries
-              </a>
-              <a href="#grievancesFrom" onClick={() => this.handleShow("Grievances")}>
-                Grievances
-              </a>
-            </div>
-          </div> */}
+        
+          </div>
+          
+
         </div>
         <Modal className="form-modal"  show={this.state.show}>
           <Modal.Header>

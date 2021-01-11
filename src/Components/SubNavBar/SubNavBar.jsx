@@ -43,7 +43,7 @@ class SubNavBar extends Component {
       </div>
 
         {this.state.isActive === "default" && <Collagediv />}
-{this.state.isActive === "mission" && <DefaultSubNavbar /> }
+        {this.state.isActive === "mission" && <DefaultSubNavbar /> }
         {this.state.isActive === "background" && <BackgroundStory/>}
         {this.state.isActive === "services" && <Services />}
         {this.state.isActive === "hrm" && <Hrm/>}
