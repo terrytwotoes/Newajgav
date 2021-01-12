@@ -76,7 +76,7 @@ export default function ClientForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Serivces Interested In"
+              placeholder="Services Interested In"
               name="services-interested"
             />
           </div>
