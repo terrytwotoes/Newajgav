@@ -83,7 +83,7 @@ export default function TourismForm() {
         </div>
         <div className="row">
           <div className="col-25">
-            <label for="number-of-days">Number of Tour days</label>
+            <label for="number-of-days">Number of Tour Days</label>
           </div>
           <div className="col-75">
             <input
@@ -95,7 +95,7 @@ export default function TourismForm() {
         </div>
         <div className="row">
           <div className="col-25">
-            <label for="departure-date">Departure date</label>
+            <label for="departure-date">Departure Date</label>
           </div>
           <div className="col-75">
             <input
@@ -107,7 +107,7 @@ export default function TourismForm() {
         </div>
         <div className="row">
           <div className="col-25">
-            <label for="arrival-date">Arrival date</label>
+            <label for="arrival-date">Arrival Date</label>
           </div>
           <div className="col-75">
             <input

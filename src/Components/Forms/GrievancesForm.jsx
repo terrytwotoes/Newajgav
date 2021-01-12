@@ -39,7 +39,7 @@ export default function GrievancesForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Comapany Name"
+              placeholder="Company Name"
               name="company-name"
               required
             />
@@ -48,7 +48,7 @@ export default function GrievancesForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Serivces taken"
+              placeholder="Services Taken"
               name="services-taken"
               required
             />

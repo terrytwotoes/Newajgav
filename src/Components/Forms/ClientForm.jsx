@@ -31,7 +31,7 @@ export default function ClientForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Comapany Name"
+              placeholder="Company Name"
               name="company-name"
               required
             />
@@ -46,7 +46,7 @@ export default function ClientForm() {
             />
           </div>
           <div className="col-8 form-group mx-auto">
-            <label for="commencement date">Project date:</label>
+            <label for="commencement date">Project Date:</label>
             <br/>
             <input
               type="date"
@@ -76,7 +76,7 @@ export default function ClientForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Serivces interested in"
+              placeholder="Serivces Interested In"
               name="services-interested"
             />
           </div>
@@ -87,7 +87,7 @@ export default function ClientForm() {
               id=""
               cols="30"
               rows="8"
-              placeholder="Comment/Concern"
+              placeholder="Comment/Concern(s)"
               name="comment"
               required
             ></textarea>

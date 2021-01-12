@@ -31,7 +31,7 @@ export default function ClientForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Comapany Name"
+              placeholder="Company Name"
               name="company-name"
               required
             />
@@ -49,7 +49,7 @@ export default function ClientForm() {
             <input
               type="text"
               className="form-control"
-              placeholder="Project Name/code"
+              placeholder="Project Name/Code"
               name="project-name"
               required
             />
@@ -79,7 +79,7 @@ export default function ClientForm() {
               id=""
               cols="30"
               rows="8"
-              placeholder="Query/description"
+              placeholder="Query/Description"
               name="query"
               required
             ></textarea>
